@@ -1,7 +1,7 @@
 /*Create an index of name employee_idx on EMPLOYEES with column Last_Name, 
  Department_id */
 CREATE INDEX EMPLOYEE_IDX ON EMPLOYEES(LAST_NAME,DEPARTMENT_ID);
-SELECT * FROM EMPLOYEE_IDX;
+SHOW INDEX FROM EMPLOYEES;
 
 /*Find the ROWID for the above table and create a unique index on employee_id column of 
  the EMPLOYEES.*/
